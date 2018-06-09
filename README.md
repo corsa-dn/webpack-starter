@@ -2,7 +2,7 @@
 Quick-start config for Webpack.
 
 Development: 
-* Develpment server on http://localhost:8080
+* Development server on http://localhost:8080
 * SASS/SCSS compiling
 ```
 npm run dev
