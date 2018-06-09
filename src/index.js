@@ -1,10 +1,7 @@
 import "./sass/main.scss"
-
 import Hellower from './components/Hello'
 
-const config_name = 'Webpack-starter'
-console.log(`Hello from ${config_name}!`)
+let tpl = new Hellower('Webpack-starter');
 
-var danila = new Hellower('Danila');
-
-danila.log()
+tpl.init()
+tpl.log()
